@@ -1,3 +1,4 @@
+import Active from "./Components/Active";
 //field
 function App() {
   return (
@@ -29,9 +30,7 @@ function App() {
         </div>
         <ul>
           <li>
-            <a className="active" href="#">
-              Home
-            </a>
+            <Active />
           </li>
           <li>
             <a href="#">Destinations</a>
