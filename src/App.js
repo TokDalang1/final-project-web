@@ -1,4 +1,5 @@
 import InfoBali from "./Components/Content Description/Info bali";
+import InfoSwiss from "./Components/Content Description/Info Swiss";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 //field
@@ -38,14 +39,7 @@ function App() {
             src="https://storage.googleapis.com/a1aa/image/hRHRAAyOq96lA59BdbVnEQoyB14Jo1ef1hhzekBiXTGIUvhnA.jpg"
             width={300}
           />
-          <div className="info">
-            <h3>Swiss Alps, Switzerland</h3>
-            <p>Enjoy the breathtaking views and outdoor activities.</p>
-            <div className="price">$1200</div>
-            <a className="read-more" href="#">
-              Read More
-            </a>
-          </div>
+          <InfoSwiss />
         </div>
         <div className="gallery-item">
           <img
