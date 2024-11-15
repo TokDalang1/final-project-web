@@ -1,4 +1,6 @@
 import Active from "./Components/Active";
+import Info from "./Components/Info";
+import Footer from "./Components/Footer";
 //field
 function App() {
   return (

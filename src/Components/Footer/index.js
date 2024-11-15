@@ -5,7 +5,7 @@ const Footer = () => {
       <div className="person">
         <img
           alt="Person working on a laptop"
-          src="https://storage.googleapis.com/a1aa/image/1u4KffLf9VCfKTNVx2QqwejK1pmPNyUq0jPDTQflaKYug6N8E.jpg"
+          src="Images/WhatsApp Image 2024-11-14 at 21.42.15.jpeg"
         />
         <p>John Doe</p>
         <p>john.doe@example.com</p>
