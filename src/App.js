@@ -1,4 +1,5 @@
 import Active from "./Components/Active";
+import Info from "./Components/Info";
 //field
 function App() {
   return (
@@ -52,14 +53,7 @@ function App() {
             src="https://storage.googleapis.com/a1aa/image/zu8BxVCMmP7ZHF8kVi7hipoMpyU9xS22f2pfiutDjvPBq3wTA.jpg"
             width={300}
           />
-          <div className="info">
-            <h3>Bali, Indonesia</h3>
-            <p>Experience the serene beaches and vibrant culture.</p>
-            <div className="price">$700</div>
-            <a className="read-more" href="#">
-              Read More
-            </a>
-          </div>
+          <Info />
         </div>
         <div className="gallery-item">
           <img
