@@ -1,5 +1,4 @@
-import Active from "./Components/Active";
-import Info from "./Components/Info";
+import InfoBali from "./Components/Content Description/Info bali";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 //field
@@ -30,7 +29,7 @@ function App() {
             src="https://storage.googleapis.com/a1aa/image/zu8BxVCMmP7ZHF8kVi7hipoMpyU9xS22f2pfiutDjvPBq3wTA.jpg"
             width={300}
           />
-          <Info />
+          <InfoBali />
         </div>
         <div className="gallery-item">
           <img
