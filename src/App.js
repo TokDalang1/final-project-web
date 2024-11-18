@@ -4,6 +4,7 @@ import InfoMorocco from "./Components/Content Description/Morocco";
 import InfoParis from "./Components/Content Description/Paris";
 import InfoPeru from "./Components/Content Description/Peru";
 import InfoSwiss from "./Components/Content Description/Swiss";
+import BaliPicture from "./Components/ContentPic/Bali";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 //field
@@ -27,21 +28,14 @@ function App() {
       />
       <Navbar />
       <div className="gallery">
-        <div className="gallery-item">
-          <img
-            alt="Beautiful beach with clear blue water"
-            height={200}
-            src="https://storage.googleapis.com/a1aa/image/zu8BxVCMmP7ZHF8kVi7hipoMpyU9xS22f2pfiutDjvPBq3wTA.jpg"
-            width={300}
-          />
-          <InfoBali />
-        </div>
+        <BaliPicture />
         <div className="gallery-item">
           <img
             alt="Mountainous landscape with a lake"
             height={200}
             src="https://storage.googleapis.com/a1aa/image/hRHRAAyOq96lA59BdbVnEQoyB14Jo1ef1hhzekBiXTGIUvhnA.jpg"
             width={300}
+            //swiss
           />
           <InfoSwiss />
         </div>
