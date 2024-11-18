@@ -18,7 +18,7 @@ const InfoPeru = () => {
 
   return (
     <div className="info">
-      <h3>Machu Picchu, Peru</h3>
+      <h3>{infoperu.title}</h3>
       <p>Visit the ancient Incan city and marvel at its history.</p>
       <div className="price">$1100</div>
       <a className="read-more" href="#">
