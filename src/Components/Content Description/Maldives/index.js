@@ -1,30 +1,30 @@
 import { getDatabase, ref, onValue } from "firebase/database";
 import { useEffect, useState } from "react";
 
-const InfoSwiss = () => {
-  const [infoswiss, setInfoSwiss] = useState({});
+const InfoMaldives = () => {
+  const [infomaldives, setInfoMaldives] = useState({});
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     const db = getDatabase();
     setLoading(true);
-    const infoswissRef = ref(db, "infoswiss/");
-    onValue(infoswissRef, (snapshot) => {
+    const infomaldivesRef = ref(db, "infomaldives/");
+    onValue(infomaldivesRef, (snapshot) => {
       const data = snapshot.val();
-      setInfoSwiss(data);
+      setInfoMaldives(data);
       setLoading(false);
     });
   }, []);
 
   return (
     <div className="info">
-      <h3>Swiss Alps, Switzerland</h3>
-      <p>Enjoy the breathtaking views and outdoor activities.</p>
-      <div className="price">$1200</div>
+      <h3>{infomaldives.title}</h3>
+      <p>{infomaldives.sub}</p>
+      <div className="price">$1500</div>
       <a className="read-more" href="#">
         Read More
       </a>
     </div>
   );
 };
-export default InfoSwiss;
+export default InfoMaldives;

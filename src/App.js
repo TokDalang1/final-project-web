@@ -1,5 +1,8 @@
 import InfoBali from "./Components/Content Description/Bali";
+import InfoMaldives from "./Components/Content Description/Maldives";
+import InfoMorocco from "./Components/Content Description/Morocco";
 import InfoParis from "./Components/Content Description/Paris";
+import InfoPeru from "./Components/Content Description/Peru";
 import InfoSwiss from "./Components/Content Description/Swiss";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
@@ -58,14 +61,7 @@ function App() {
             src="https://storage.googleapis.com/a1aa/image/8l3PvNArhaI6OF1ChsoH1bCv4F9eRNYyuGAgTL29BJXE1b4JA.jpg"
             width={300}
           />
-          <div className="info">
-            <h3>Sahara Desert, Morocco</h3>
-            <p>Explore the vast and stunning desert landscapes.</p>
-            <div className="price">$800</div>
-            <a className="read-more" href="#">
-              Read More
-            </a>
-          </div>
+          <InfoMorocco />
         </div>
         <div className="gallery-item">
           <img
@@ -74,14 +70,7 @@ function App() {
             src="https://storage.googleapis.com/a1aa/image/r9oraMK1SF76ARHrnKIO75ZqSWqHYOGHXuIEXee66qWHq3wTA.jpg"
             width={300}
           />
-          <div className="info">
-            <h3>Maldives</h3>
-            <p>Relax in the luxurious resorts and crystal-clear waters.</p>
-            <div className="price">$1500</div>
-            <a className="read-more" href="#">
-              Read More
-            </a>
-          </div>
+          <InfoMaldives />
         </div>
         <div className="gallery-item">
           <img
@@ -90,14 +79,7 @@ function App() {
             src="https://storage.googleapis.com/a1aa/image/aQ1dPGu9W779FBSY5NuagAwQHWDfKpUnwtnDFfzSXnMFq3wTA.jpg"
             width={300}
           />
-          <div className="info">
-            <h3>Machu Picchu, Peru</h3>
-            <p>Visit the ancient Incan city and marvel at its history.</p>
-            <div className="price">$1100</div>
-            <a className="read-more" href="#">
-              Read More
-            </a>
-          </div>
+          <InfoPeru />
         </div>
       </div>
       <Footer />

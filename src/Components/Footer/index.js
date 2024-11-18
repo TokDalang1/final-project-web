@@ -1,4 +1,21 @@
+import { getDatabase, ref, onValue } from "firebase/database";
+import { useEffect, useState } from "react";
+
 const Footer = () => {
+  const [footer, setFooter] = useState({});
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    const db = getDatabase();
+    setLoading(true);
+    const footerRef = ref(db, "footer/");
+    onValue(footerRef, (snapshot) => {
+      const data = snapshot.val();
+      setFooter(data);
+      setLoading(false);
+    });
+  }, []);
+
   return (
     <div className="footer">
       <p>Follow Us:</p>
@@ -7,7 +24,7 @@ const Footer = () => {
           alt="Person working on a laptop"
           src="Images/WhatsApp Image 2024-11-14 at 21.42.15.jpeg"
         />
-        <p>John Doe</p>
+        <p>Eden J Mirontoneng</p>
         <p>john.doe@example.com</p>
       </div>
       <div className="person">
