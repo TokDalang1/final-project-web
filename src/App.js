@@ -1,10 +1,13 @@
-import InfoBali from "./Components/Content Description/Bali";
 import InfoMaldives from "./Components/Content Description/Maldives";
 import InfoMorocco from "./Components/Content Description/Morocco";
 import InfoParis from "./Components/Content Description/Paris";
 import InfoPeru from "./Components/Content Description/Peru";
-import InfoSwiss from "./Components/Content Description/Swiss";
 import BaliPicture from "./Components/ContentPic/Bali";
+import MaldivesPicture from "./Components/ContentPic/Maldives";
+import MoroccoPicture from "./Components/ContentPic/Morocco";
+import ParisPicture from "./Components/ContentPic/Paris";
+import PeruPicture from "./Components/ContentPic/Peru";
+import SwissPicture from "./Components/ContentPic/Swiss";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 //field
@@ -29,52 +32,11 @@ function App() {
       <Navbar />
       <div className="gallery">
         <BaliPicture />
-        <div className="gallery-item">
-          <img
-            alt="Mountainous landscape with a lake"
-            height={200}
-            src="https://storage.googleapis.com/a1aa/image/hRHRAAyOq96lA59BdbVnEQoyB14Jo1ef1hhzekBiXTGIUvhnA.jpg"
-            width={300}
-            //swiss
-          />
-          <InfoSwiss />
-        </div>
-        <div className="gallery-item">
-          <img
-            alt="Cityscape with historical buildings"
-            height={200}
-            src="https://storage.googleapis.com/a1aa/image/rY2Go0v37uLNOFXKAeyihR9niAIecsdyjejRjIfeqemRi6N8E.jpg"
-            width={300}
-          />
-          <InfoParis />
-        </div>
-        <div className="gallery-item">
-          <img
-            alt="Desert landscape with sand dunes"
-            height={200}
-            src="https://storage.googleapis.com/a1aa/image/8l3PvNArhaI6OF1ChsoH1bCv4F9eRNYyuGAgTL29BJXE1b4JA.jpg"
-            width={300}
-          />
-          <InfoMorocco />
-        </div>
-        <div className="gallery-item">
-          <img
-            alt="Tropical island with palm trees"
-            height={200}
-            src="https://storage.googleapis.com/a1aa/image/r9oraMK1SF76ARHrnKIO75ZqSWqHYOGHXuIEXee66qWHq3wTA.jpg"
-            width={300}
-          />
-          <InfoMaldives />
-        </div>
-        <div className="gallery-item">
-          <img
-            alt="Historical ruins with a sunset background"
-            height={200}
-            src="https://storage.googleapis.com/a1aa/image/aQ1dPGu9W779FBSY5NuagAwQHWDfKpUnwtnDFfzSXnMFq3wTA.jpg"
-            width={300}
-          />
-          <InfoPeru />
-        </div>
+        <SwissPicture />
+        <ParisPicture />
+        <MoroccoPicture />
+        <MaldivesPicture />
+        <PeruPicture />
       </div>
       <Footer />
     </div>
