@@ -25,7 +25,7 @@ const Footer = () => {
           src="Images/WhatsApp Image 2024-11-14 at 21.42.15.jpeg"
         />
         <p>Eden J Mirontoneng</p>
-        <p>john.doe@example.com</p>
+        <p>s22110547@student.unklab.ac.id</p>
       </div>
       <div className="person">
         <img
