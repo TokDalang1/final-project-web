@@ -19,7 +19,7 @@ const InfoSwiss = () => {
   return (
     <div className="info">
       <h3>{infoswiss.title}</h3>
-      <p>Enjoy the breathtaking views and outdoor activities.</p>
+      <p>{infoswiss.sub}</p>
       <div className="price">$1200</div>
       <a className="read-more" href="#">
         Read More
