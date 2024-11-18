@@ -22,7 +22,7 @@ const MaldivesPicture = () => {
       <img
         alt="Tropical island with palm trees"
         height={200}
-        src={maldivespicture}
+        src={maldivespicture.img}
         width={300}
         //maldives
       />

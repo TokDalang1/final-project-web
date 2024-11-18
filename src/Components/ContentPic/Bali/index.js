@@ -13,7 +13,8 @@ const BaliPicture = () => {
     onValue(balipictureRef, (snapshot) => {
       const data = snapshot.val();
       setBaliPicture(data);
-      setLoading(falseS)
+      setLoading(false);
+    });
   }, []);
 
   return (
@@ -29,4 +30,5 @@ const BaliPicture = () => {
     </div>
   );
 };
+
 export default BaliPicture;
