@@ -1,5 +1,6 @@
-import InfoBali from "./Components/Content Description/Info bali";
-import InfoSwiss from "./Components/Content Description/Info Swiss";
+import InfoBali from "./Components/Content Description/Bali";
+import InfoParis from "./Components/Content Description/Paris";
+import InfoSwiss from "./Components/Content Description/Swiss";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 //field
@@ -48,14 +49,7 @@ function App() {
             src="https://storage.googleapis.com/a1aa/image/rY2Go0v37uLNOFXKAeyihR9niAIecsdyjejRjIfeqemRi6N8E.jpg"
             width={300}
           />
-          <div className="info">
-            <h3>Paris, France</h3>
-            <p>Discover the romantic city of lights and its rich history.</p>
-            <div className="price">$900</div>
-            <a className="read-more" href="#">
-              Read More
-            </a>
-          </div>
+          <InfoParis />
         </div>
         <div className="gallery-item">
           <img
