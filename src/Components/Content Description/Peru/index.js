@@ -19,7 +19,7 @@ const InfoPeru = () => {
   return (
     <div className="info">
       <h3>{infoperu.title}</h3>
-      <p>Visit the ancient Incan city and marvel at its history.</p>
+      <p>{infoperu.sub</p>
       <div className="price">$1100</div>
       <a className="read-more" href="#">
         Read More
