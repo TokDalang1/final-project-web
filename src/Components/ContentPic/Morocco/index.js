@@ -1,9 +1,9 @@
-const Active = () => {
+const MoroccoPicture = () => {
     return (
       <a className="active" href="#">
         Home
       </a>
     );
   };
-  export default Active;
+  export default MoroccoPicture;
   
