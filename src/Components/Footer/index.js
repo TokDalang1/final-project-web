@@ -28,12 +28,9 @@ const Footer = () => {
         <p>s22110547@student.unklab.ac.id</p>
       </div>
       <div className="person">
-        <img
-          alt="Person writing on a notebook"
-          src="https://storage.googleapis.com/a1aa/image/2u4KffLf9VCfKTNVx2QqwejK1pmPNyUq0jPDTQflaKYug6N8E.jpg"
-        />
-        <p>Yorry</p>
-        <p>jane.smith@example.com</p>
+        <img alt="Person writing on a notebook" src="Images/profile.png" />
+        <p>Yorry Efrem</p>
+        <p>s22210690@student.unklab.ac.id</p>
       </div>
       <div className="person">
         <img
