@@ -30,20 +30,14 @@ const Footer = () => {
         <p>s22210690@student.unklab.ac.id</p>
       </div>
       <div className="person">
-        <img
-          alt="Person using a tablet"
-          src="https://storage.googleapis.com/a1aa/image/3u4KffLf9VCfKTNVx2QqwejK1pmPNyUq0jPDTQflaKYug6N8E.jpg"
-        />
-        <p>Alice Johnson</p>
-        <p>alice.johnson@example.com</p>
+        <img alt="Person using a tablet" src={footer.img3} />
+        <p>David Albrian Manorek</p>
+        <p>s22110457@student.unklab.ac.id</p>
       </div>
       <div className="person">
-        <img
-          alt="Person holding a smartphone"
-          src="https://storage.googleapis.com/a1aa/image/4u4KffLf9VCfKTNVx2QqwejK1pmPNyUq0jPDTQflaKYug6N8E.jpg"
-        />
-        <p>Bob Brown</p>
-        <p>bob.brown@example.com</p>
+        <img alt="Person holding a smartphone" src={footer.img4} />
+        <p>Nofriandi Julio Malinso</p>
+        <p>s22020162@studentunklab.ac.id</p>
       </div>
     </div>
   );
