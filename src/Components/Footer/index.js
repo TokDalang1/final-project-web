@@ -20,15 +20,12 @@ const Footer = () => {
     <div className="footer">
       <p>Follow Us:</p>
       <div className="person">
-        <img
-          alt="Person working on a laptop"
-          src="Images/WhatsApp Image 2024-11-14 at 21.42.15.jpeg"
-        />
+        <img alt="Person working on a laptop" src={footer.img1} />
         <p>Eden J Mirontoneng</p>
         <p>s22110547@student.unklab.ac.id</p>
       </div>
       <div className="person">
-        <img alt="Person writing on a notebook" src="Images/profile.png" />
+        <img alt="Person writing on a notebook" src={footer.img2} />
         <p>Yorry Efrem</p>
         <p>s22210690@student.unklab.ac.id</p>
       </div>
