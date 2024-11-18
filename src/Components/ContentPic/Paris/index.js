@@ -22,7 +22,7 @@ const ParisPicture = () => {
       <img
         alt="Cityscape with historical buildings"
         height={200}
-        src="https://storage.googleapis.com/a1aa/image/rY2Go0v37uLNOFXKAeyihR9niAIecsdyjejRjIfeqemRi6N8E.jpg"
+        src={parispicture.img}
         width={300}
         //paris
       />

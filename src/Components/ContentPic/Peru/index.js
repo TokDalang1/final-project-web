@@ -22,7 +22,7 @@ const PeruPicture = () => {
       <img
         alt="Historical ruins with a sunset background"
         height={200}
-        src="https://storage.googleapis.com/a1aa/image/aQ1dPGu9W779FBSY5NuagAwQHWDfKpUnwtnDFfzSXnMFq3wTA.jpg"
+        src={perupicture.img}
         width={300}
         //peru
       />

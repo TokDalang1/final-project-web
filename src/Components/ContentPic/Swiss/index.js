@@ -22,7 +22,7 @@ const SwissPicture = () => {
       <img
         alt="Mountainous landscape with a lake"
         height={200}
-        src="images/swiss.jpg"
+        src={swisspicture.img}
         width={300}
         //swiss
       />
