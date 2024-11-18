@@ -32,7 +32,7 @@ const Footer = () => {
           alt="Person writing on a notebook"
           src="https://storage.googleapis.com/a1aa/image/2u4KffLf9VCfKTNVx2QqwejK1pmPNyUq0jPDTQflaKYug6N8E.jpg"
         />
-        <p>Jane Smith</p>
+        <p>Yorry</p>
         <p>jane.smith@example.com</p>
       </div>
       <div className="person">
