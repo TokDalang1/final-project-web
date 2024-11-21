@@ -22,7 +22,7 @@ const BaliPicture = () => {
       <img
         alt="Beautiful beach with clear blue water"
         height={200}
-        src={balipicture.img}
+        src={`data:images/jpg;base64,${balipicture.img}`}
         width={300}
         //Bali
       />

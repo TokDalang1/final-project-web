@@ -22,7 +22,7 @@ const MoroccoPicture = () => {
       <img
         alt="Desert landscape with sand dunes"
         height={200}
-        src={moroccopicture.img}
+        src={`data:images/jpeg;base64,${moroccopicture.img}`}
         width={300}
         //morocco
       />

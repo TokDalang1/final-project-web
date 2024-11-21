@@ -22,7 +22,7 @@ const ParisPicture = () => {
       <img
         alt="Cityscape with historical buildings"
         height={200}
-        src={parispicture.img}
+        src={`data:images/jpeg;base64,${parispicture.img}`}
         width={300}
         //paris
       />
